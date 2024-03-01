@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(to bottom ,rgb(116, 7, 218),rgb(139, 63, 231),rgb(185, 127, 226))
+
+}
+
+h1{
+  padding-left: 100px;
+  margin-top: 10px;
+  color: white;
+}
+
+.container{
+  border: 3px solid black;
+  border-radius: 20px;
+  padding:25px;
+ 
+}
+
+.input{
+  padding:15px;
+}
+
+input::placeholder{
+  color: aliceblue;
+  padding-left:5px;
+ }
+
+
+input[type=text]{
+  width: 250px;
+  height: 30px;
+  border: 1px solid white;
+  background-color:rgb(139, 63, 231);
+  color: white;
+}
+
+input[type=password]{
+  width: 250px;
+  height: 30px;
+  background-color:rgb(139, 63, 231);
+  border: 1px solid white;
+  
+}
+
+.box{
+  padding-left: 15px;
+  color: white;
+}
+
+#fn{
+  padding-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+#fn:hover{
+  color: blue;
+}
+
+.btn{
+   padding: 20px;
+}
+
+input[type=button]{
+  width: 250px;
+  height: 30px;
+  border-radius:20px;
+}
+
+input[type=button]:hover{
+  background-color: rgb(185, 151, 227);
+}
+
+.page{
+  color: white;
+  padding-left: 25px;
+  margin-top: -25px;
+}
+
+#hi{
+  padding-left:30px;
+  text-decoration: none;
+  color: white;
+}
+
+#hi:hover{
+  color: rgb(15, 18, 206);
+}
